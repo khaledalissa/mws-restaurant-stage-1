@@ -60,6 +60,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 
 #maincontent > section {
+  margin-top: 20px;
   width: 100%;
 }
 
@@ -163,8 +164,8 @@ nav h1 a {
 #restaurants-list {
   background-color: #0000;
   list-style: outside none none;
-  margin: 0;
-  padding: 30px 15px 60px;
+  margin: -15px;
+  padding: 0px 15px 60px;
   text-align: center;
 
   display: flex;
@@ -190,7 +191,7 @@ nav h1 a {
   min-width: 100%;
   
 }
-#restaurants-list li h1 {
+#restaurants-list li h4 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 14pt;
@@ -337,6 +338,10 @@ nav h1 a {
 }
 
 
+
+#filter-options {
+  order: -1;
+}
 
 
 
