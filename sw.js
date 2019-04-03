@@ -1,4 +1,4 @@
-let cacheName = 'static-v1';
+let cacheName = 'static-v4';
 
 self.addEventListener('install', function(event){
 	// open a cache and save all files
